@@ -6,9 +6,21 @@
     android:gravity="center"
     android:orientation="vertical">
 
+
+    <com.whl.imagetext.MyImageText
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="4dip"
+        whl:micon="@drawable/all"
+        whl:mtext="新品"
+        whl:text_color="#000000"
+        whl:text_size="12sp" />
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:layout_height="50dp"
+        android:orientation="horizontal">
 
         <com.whl.imagetext.MyImageText
             android:layout_width="0dp"
@@ -21,20 +33,10 @@
             whl:text_size="12sp" />
 
         <com.whl.imagetext.MyImageText
-            android:padding="4dip"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            whl:micon="@drawable/all"
-            whl:mtext="新品"
-            whl:text_color="#000000"
-            whl:text_size="12sp" />
-
-        <com.whl.imagetext.MyImageText
             android:padding="4dip"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
             whl:micon="@drawable/all"
             whl:mtext="新品"
             whl:text_color="#000000"
@@ -42,13 +44,26 @@
 
         <com.whl.imagetext.MyImageText
             android:layout_width="0dp"
-            android:padding="4dip"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:padding="4dip"
             whl:micon="@drawable/all"
             whl:mtext="新品"
             whl:text_color="#000000"
             whl:text_size="12sp" />
+
+        <com.whl.imagetext.MyImageText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="4dip"
+            whl:micon="@drawable/all"
+            whl:mtext="新品"
+            whl:text_color="#000000"
+            whl:text_size="12sp" />
+
+
     </LinearLayout>
+
 
 </LinearLayout>
