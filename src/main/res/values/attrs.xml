@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="micon" format="reference"></attr>
+    <attr name="mtext" format="string"></attr>
+    <attr name="text_size" format="dimension"></attr>
+    <attr name="text_color" format="color"></attr>
+
+
+    <declare-styleable name="MyImgeText">
+        <attr name="micon"></attr>
+        <attr name="mtext"></attr>
+        <attr name="text_size"></attr>
+        <attr name="text_color"></attr>
+    </declare-styleable>
+
+</resources>
